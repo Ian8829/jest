@@ -20,3 +20,8 @@ test('returns the array if it is given an array', () => {
 	const result = arrayify(input);
 	expect(result).toEqual(input);
 });
+
+
+// if you want to jest watch // jest --watch
+
+//  run just last test // jest --watch --last
